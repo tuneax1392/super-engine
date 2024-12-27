@@ -1,0 +1,20 @@
+{"Events": [
+{"workflow":"APP","subcategory":"Linking","type":"success","subtype":"open-team-projects-deeplink","routing":"GLOBAL_APPROVED"},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"initialized-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"event-loop-running-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"app-running-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"prepare-to-quit-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"will-terminate-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"event-loop-terminated-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"terminating-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"fast-exit-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"will-terminate-initializers","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"will-sleep-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"did-wake-up-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"activated-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"State","type":"enter","subtype":"deactivated-state","routing":"GLOBAL_APPROVED","data":["content.type"]},
+{"workflow":"APP","subcategory":"Shutdown","type":"complete","subtype":"shutdown-gui","routing":"GLOBAL_APPROVED","data":["event.context_guid","dva.event_duration_ms","event.value","content.status","content.action"]},
+{"workflow":"APP","subcategory":"Shutdown","type":"complete","subtype":"shutdown","routing":"GLOBAL_APPROVED","data":["event.context_guid","dva.event_duration_ms","event.value","content.status","content.action"]},
+{"workflow":"APP","subcategory":"Settings","type":"enable","subtype":"system-compatibility-report-display","routing":"GLOBAL_APPROVED"},
+{"workflow":"APP","subcategory":"Settings","type":"disable","subtype":"system-compatibility-report-display","routing":"GLOBAL_APPROVED"}
+]}
