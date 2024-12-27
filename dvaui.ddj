@@ -1,0 +1,8 @@
+{"Events": [
+{"workflow":"APP","subcategory":"Lifecycle","type":"complete","subtype":"init-dvaui","routing":"GLOBAL_APPROVED","data":["event.value","env.com.name","env.com.version","dva.drover_skin_version"]},
+{"workflow":"INTERFACE","subcategory":"Skinning","type":"success","subtype":"get-control-skin","routing":"GLOBAL_APPROVED","data":["event.value","env.com.name","env.com.version","dva.drover_skin_version"]},
+{"workflow":"INTERFACE","subcategory":"Skinning","type":"failure","subtype":"get-control-skin","routing":"GLOBAL_APPROVED","data":["event.value","env.com.name","env.com.version","dva.drover_skin_version","event.error_type","event.error_desc"]},
+{"workflow":"INTERFACE","subcategory":"Skinning","type":"failure","subtype":"read-dna-token","routing":"GLOBAL_APPROVED","data":["event.value","env.com.name","env.com.version","dva.drover_skin_version","event.error_type","event.error_desc"]},
+{"workflow":"INTERFACE","subcategory":"Skinning","type":"log","subtype":"legacy-color-id-used","routing":"GLOBAL_APPROVED","data":["event.value","env.com.name","env.com.version","dva.drover_skin_version"]},
+{"workflow":"OPERATIONAL","subcategory":"Debug","type":"failure","subtype":"modal-dialog-visibility","routing":"GLOBAL_APPROVED","data":["event.value","event.error_type"]}
+]}

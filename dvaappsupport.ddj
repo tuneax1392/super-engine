@@ -1,0 +1,16 @@
+{"Events": [
+{"workflow":"APP","subcategory":"Lifecycle","type":"licensing","subtype":"complete","routing":"GLOBAL_APPROVED"},
+{"workflow":"DATA QUALITY","subcategory":"Data Validation","type":"info","subtype":"missing-event-rule","routing":"GLOBAL_APPROVED","data":["event.value"]},
+{"workflow":"DATA QUALITY","subcategory":"Data Validation","type":"info","subtype":"data-key-mismatch","routing":"GLOBAL_APPROVED","data":["event.value","dva.unexpected_data_keys","dva.missing_data_keys"]},
+{"workflow":"PERFORMANCE","subcategory":"Lifecycle","type":"complete","subtype":"init","routing":"GLOBAL_APPROVED","data":["dva.event_duration_ms","dva.ram_usage_kb","dva.loaded_modules_count","dva.thread_count","dva.first_launch","event.value"]},
+{"workflow":"PERFORMANCE","subcategory":"Lifecycle","type":"complete","subtype":"init-plugin","routing":"GLOBAL_APPROVED","data":["dva.adobe_plugin_load_duration_ms","dva.user_plugin_load_duration_ms","dva.cache_exists","dva.adobe_plugin_count","dva.user_plugin_count","event.value"]},
+{"workflow":"PERFORMANCE","subcategory":"Lifecycle","type":"complete","subtype":"init-memorybalancer","routing":"GLOBAL_APPROVED","data":["dva.event_duration_ms"]},
+{"workflow":"PERFORMANCE","subcategory":"Lifecycle","type":"complete","subtype":"init-data-dictionaries","routing":"GLOBAL_APPROVED","data":["dva.event_duration_ms","content.count","content.size_kb"]},
+{"workflow":"SESSION","subcategory":"Beta Feature","type":"defaults","subtype":"build","routing":"GLOBAL_APPROVED","data":["dva.beta_features"]},
+{"workflow":"SESSION","subcategory":"Beta Feature","type":"enabled","subtype":"featureid","routing":"GLOBAL_APPROVED","data":["event.value","dva.adobe_employee"]},
+{"workflow":"BETAFEATURE","subcategory":"Feedback","type":"submit","subtype":"ready-for-release-rating","routing":"GLOBAL_APPROVED","data":["dva.beta_feature_prompt","content.id","event.value","dva.comment"]},
+{"workflow":"BETAFEATURE","subcategory":"Feedback","type":"skip","subtype":"ready-for-release-rating","routing":"GLOBAL_APPROVED","data":["dva.beta_feature_prompt","content.id","event.value","dva.comment"]},
+{"workflow":"APP","subcategory":"Startup","type":"info","subtype":"highbeam-session","routing":"GLOBAL_APPROVED","data":["content.id"]},
+{"workflow":"APP","subcategory":"Module","type":"info","subtype":"dunamis-sdk-host","routing":"GLOBAL_APPROVED","data":["event.value"]},
+{"workflow":"OPERATIONAL","subcategory":"Debug","type":"info","subtype":"dunamis-sdk-volume-test-event","routing":"GLOBAL_APPROVED"}
+]}

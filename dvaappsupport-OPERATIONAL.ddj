@@ -1,0 +1,7 @@
+{"Events": [
+{"workflow":"OPERATIONAL","subcategory":"Stability","type":"success","subtype":"system-compatibility-report","routing":"GLOBAL_APPROVED","data":["dva.ui_path_to_access","ui.view_type","dva.items_detected_count","dva.items_resolved_count"]},
+{"workflow":"OPERATIONAL","subcategory":"Stability","type":"info","subtype":"system-compatibility-report-issue","routing":"GLOBAL_APPROVED","data":["content.status","content.type","content.name","content.mimetype","dva.content_version","content.id","event.error_type","event.error_desc","event.url"]},
+{"workflow":"OPERATIONAL","subcategory":"Stability","type":"continue","subtype":"system-compatibility-report-fix","routing":"GLOBAL_APPROVED","data":["content.status","content.type","content.name","content.mimetype","dva.content_version","content.id","event.error_type","event.error_desc","event.url"]},
+{"workflow":"OPERATIONAL","subcategory":"Stability","type":"success","subtype":"export-system-compatibility-report","routing":"GLOBAL_APPROVED"},
+{"workflow":"OPERATIONAL","subcategory":"Stability","type":"apply","subtype":"reinitialize-system-compatibility-report","routing":"GLOBAL_APPROVED"}
+]}

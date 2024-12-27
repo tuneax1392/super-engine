@@ -1,0 +1,4 @@
+{"Events": [
+{"workflow":"INTERFACE","subcategory":"Navigation","type":"open","subtype":"workspace","routing":"GLOBAL_APPROVED","data":["event.value"]},
+{"workflow":"INTERFACE","subcategory":"Navigation","type":"continue","subtype":"context-menu","routing":"GLOBAL_APPROVED","data":["event.value","dva.ui_path_to_access"]}
+]}
